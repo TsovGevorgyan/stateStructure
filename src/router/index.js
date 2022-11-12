@@ -1,15 +1,14 @@
 import {
     Route,
-    BrowserRouter as Router,
     Routes
   } from 'react-router-dom';
   
   import routes from './routes';
   
-  const AppRouter = ({ children }) => {
+  const AppRouter = () => {
     return (
-      <Router>
-        {children}
+      <>
+        {/* {children} */}
         <Routes>
           {routes.map((route) => (
             <Route
@@ -19,7 +18,7 @@ import {
             />
           ))}
         </Routes>
-      </Router>
+      </>
     );
   };
   

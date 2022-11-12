@@ -4,7 +4,7 @@ const Links = [
     name: 'Dashboard',
   },
   {
-    link: '/test',
+    link: '/testPage',
     name: 'TestPage',
   },
 ];
